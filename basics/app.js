@@ -7,7 +7,8 @@ const rl = readline.createInterface({ // Create an interface for reading input f
 
 rl.question("Please enter your name: ", (name)=> { // Ask for name and handle input
     console.log("You entered: "+name); // Log name
-    rl.close(); // close readline interface after getting the input
+    rl.close(); // close readline interface after getting the input 
+                // waits for close event on the rl interface 
 })
 
 
