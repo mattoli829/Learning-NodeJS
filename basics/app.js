@@ -19,7 +19,7 @@ rl.on('close', () => {  // event listener for when the interface closes
     process.exit(0); // exit
 })
 
-
+ 
 /// side notes:
 
 //const square = x => x * x;
