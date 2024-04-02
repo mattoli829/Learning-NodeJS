@@ -1,3 +1,5 @@
+// nodeJS Fundamentals | Basic inputs and outputs
+
 const readline = require('readline');  // import readline module to interact with the console
 
 const rl = readline.createInterface({ // Create an interface for reading input from stdin and writing to stdout
